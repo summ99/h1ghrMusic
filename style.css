@@ -1,7 +1,7 @@
 body, html{
   margin:0px;
   padding:0px;
-  font-family: 'Work Sans', serif;
+  font-family: 'Poppins', sans-serif;
 }
 .mainContainer{
   display:flex;
@@ -13,12 +13,13 @@ body, html{
   flex:1;
 }
 .leftSection{
-  background-color: #044cfb;
+  background-color: black ;
   color: #f0f1ec;
 }
+
 .rightSection{
-  background-color: #f0f1ec;
-  color:#044cfb;
+  background-color: #e1e1e1;
+  color:black;
   width:50%;
 }
 
@@ -34,13 +35,15 @@ body, html{
   padding:10px;
   margin-top: 50px;
   justify-content: flex-end;
-  font-size: 100px;
+  font-size: 80px;
   font-style: italic;
-  text-decoration: underline ;
+  animation-name: example1;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
 }
 p{
   display:flex;
-  font-size: 50px;
+  font-size: 40px;
   margin:40px;
 }
 .socials{
@@ -61,12 +64,11 @@ i.fa-instagram{
 i.fa-youtube{
   color:red;
 }
-
 .rightSection > h1{
   display:flex;
   margin-top: 154px;
   padding:10px;
-  font-size: 100px;
+  font-size: 80px;
 }
 .artists{
   display:grid;
@@ -74,7 +76,6 @@ i.fa-youtube{
   margin: 10%;
   color:black;
   width:80%;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   font-size: 20px;
 }
 .person{
@@ -107,7 +108,7 @@ i.fa-youtube{
 .navMenu{
   position:relative;
   display: inline-block;
-  margin-top: 30px;
+  margin-top: 20px;
   float:right;
   width:100px;
   text-align: center;
@@ -115,15 +116,15 @@ i.fa-youtube{
 .dropBtn{
   cursor: pointer;
   font-size: 15px;
-  background-color: #044cfb;
+  background-color:black;
+  color:red;
   border:none;
   border-radius: 50px;
-  color: white;
   padding: 12px 16px;
 }
 .dropBtn:hover{
-  background-color:#f0f1ec;
-  color:#044cfb;
+  background-color: #363636 ;
+  color: #f0f1ec;
 }
 .dropdown-content{
   display:none;
@@ -147,4 +148,17 @@ i.fa-youtube{
 }
 .navMenu:hover > .dropbtn {
   background-color: #3e8e41;
+}
+.red{
+  background-color: black;
+}
+.landingCover{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.landingCover img{
+  width:80vw;
+  height:70vh;
 }
