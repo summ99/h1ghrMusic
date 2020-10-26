@@ -39,7 +39,7 @@ body, html{
 }
 p{
   display:flex;
-  font-size: 40px;
+  font-size: 50px;
   margin:40px;
 }
 .socials{
@@ -83,6 +83,9 @@ i.fa-youtube{
   text-align: center;
   transition: transform .1s;
   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.15);
+}
+.newsHeader{
+  font-weight: bold;
 }
 .rightSection > iframe{
   display:flex;
