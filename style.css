@@ -154,6 +154,7 @@ i.fa-youtube{
   background-color: #3e8e41;
 }
 .red{
+  display: flex;
   background-color: black;
   color:white;
   margin:0;
@@ -216,6 +217,7 @@ i.fa-spotify{
   margin-left: 7px;
 }
 .blue{
+  display: flex;
   background-color: white;
   margin:0;
   padding:0;
@@ -249,4 +251,7 @@ i.fa-spotify{
   display:flex;
   flex-direction: row;
   justify-content: space-around;
+}
+.videoLine{
+  margin:2vmin;
 }
