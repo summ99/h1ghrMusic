@@ -28,11 +28,30 @@ body, html{
   margin-top: 50px;
   justify-content: flex-end;
   font-size: 100px;
+  font-style: italic;
 }
 p{
   display:flex;
   font-size: 40px;
-  padding-right: 10px;
+  margin:40px;
+}
+.socials{
+  display: flex;
+  justify-content: space-between;
+  margin:40px;
+  width:50%;
+}
+.icons i{
+  font-size: 40px;
+}
+i.fa-facebook-square, i.fa-twitter{
+  color:white;
+}
+i.fa-instagram{
+  color:#d72888;
+}
+i.fa-youtube{
+  color:red;
 }
 .rightSection > h1{
   display:flex;
