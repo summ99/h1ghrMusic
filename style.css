@@ -245,3 +245,8 @@ i.fa-spotify{
   font-size: 15px;
   padding: 12px;
 }
+.lives{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
