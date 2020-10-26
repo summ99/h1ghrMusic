@@ -221,27 +221,27 @@ i.fa-spotify{
   padding:0;
 }
 .blue .album{
-  background-image:url("cloud.png");
+  background-image:url("cloud1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width:100%;
 }
 .blue .dropBtn{
   color:white;
-  background-color: #3895D3;
+  background-color: #5774ab;
 }
 .blue .dropBtn:hover{
-  color:#3895D3;
+  color:#5774ab;
   background-color: white;
 }
-.blue h1{
-  color: #155790;
-}
-.blue .trackList, span{
+
+.blue h1, span{
   color: white;
 }
 .blue ul li {
   margin-top: -1px; /* Prevent double borders */
-  color: #155790;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #5774ab;
+  font-size: 15px;
   padding: 12px;
 }
