@@ -217,15 +217,20 @@ i.fa-spotify{
   margin-left: 7px;
 }
 .blue{
-  display: flex;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   background-color: white;
   margin:0;
   padding:0;
+  width:100%;
 }
 .blue .album{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   background-image:url("cloud1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size:cover;
   width:100%;
 }
 .blue .dropBtn{
